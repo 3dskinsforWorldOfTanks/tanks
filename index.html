@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World of Tanks Skins 3D</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #0d0f14;
+      color: #fff;
+    }
+
+    header {
+      background: url('banner.jpg') no-repeat center/cover;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    header img {
+      max-height: 120px;
+      filter: drop-shadow(0 0 15px rgba(0,0,0,0.8));
+    }
+
+    header h1 {
+      margin-top: 10px;
+      font-size: 2em;
+      color: #ff4c00;
+      text-shadow: 0 0 10px rgba(255,76,0,0.8);
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .filters {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    select, input[type="text"] {
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      font-size: 1em;
+      width: 200px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1a1d25;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 20px rgba(255,76,0,0.6);
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card-content {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .card-content h3 {
+      margin: 0;
+      color: #ffb400;
+      font-size: 1.2em;
+    }
+
+    .card-content a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 15px;
+      background: #ff4c00;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .card-content a:hover {
+      background: #ff7000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="nuevo-logo2.png" alt="World of Tanks Skins 3D Logo">
+    <h1>World of Tanks 3D Skins</h1>
+  </header>
+
+  <main>
+    <div class="filters">
+      <input type="text" id="searchInput" placeholder="Search for tank...">
+
+      <select id="nationFilter">
+        <option value="">All Nations</option>
+        <option value="AMERICAN">AMERICAN</option>
+        <option value="GERMAN">GERMAN</option>
+        <option value="RUSSIAN">RUSSIAN</option>
+        <option value="BRITISH">BRITISH</option>
+        <option value="FRENCH">FRENCH</option>
+        <option value="CHINESE">CHINESE</option>
+        <option value="JAPAN">JAPAN</option>
+        <option value="CZECH">CZECH</option>
+        <option value="SWEDEN">SWEDEN</option>
+        <option value="POLAND">POLAND</option>
+        <option value="ITALY">ITALY</option>
+      </select>
+
+      <select id="tierFilter">
+        <option value="">All Tiers</option>
+        <option value="6">Nivel VI</option>
+        <option value="7">Nivel VII</option>
+        <option value="8">Nivel VIII</option>
+        <option value="9">Nivel IX</option>
+        <option value="X">Nivel X</option>
+      </select>
+    </div>
+
+    <div class="grid" id="skinsGrid"></div>
+  </main>
+
+  <script>
+    const nationFilter = document.getElementById('nationFilter');
+    const tierFilter = document.getElementById('tierFilter');
+    const searchInput = document.getElementById('searchInput');
+    const skinsGrid = document.getElementById('skinsGrid');
+
+    let skinsData = [];
+
+    async function loadSkins() {
+      try {
+        const response = await fetch('tanques.json');
+        skinsData = await response.json();
+        renderSkins();
+      } catch (error) {
+        console.error('Error al cargar el JSON:', error);
+      }
+    }
+
+    function renderSkins() {
+      skinsGrid.innerHTML = '';
+      skinsData.forEach(skin => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.dataset.nation = skin.NACION;
+        card.dataset.tier = skin.NIVEL;
+        card.dataset.name = skin.TANQUE.toLowerCase();
+
+        card.innerHTML = `
+          <img src="${skin.IMAGEN}.jpg" alt="${skin.TANQUE}">
+          <div class="card-content">
+            <h3>${skin.TANQUE}</h3>
+            <a href="${skin.LINK}" target="_blank">Ver Publicación</a>
+          </div>
+        `;
+
+        skinsGrid.appendChild(card);
+      });
+      filterSkins();
+    }
+
+    function filterSkins() {
+      const nation = nationFilter.value;
+      const tier = tierFilter.value;
+      const search = searchInput.value.toLowerCase();
+
+      const cards = skinsGrid.querySelectorAll('.card');
+
+      cards.forEach(card => {
+        const matchNation = !nation || card.dataset.nation.toUpperCase() === nation;
+        const matchTier = !tier || card.dataset.tier.toString() === tier;
+        const matchSearch = !search || card.dataset.name.includes(search);
+
+        // Si hay búsqueda, ignora filtros de nación/tier
+        if (search) {
+          card.style.display = matchSearch ? 'block' : 'none';
+        } else {
+          card.style.display = (matchNation && matchTier) ? 'block' : 'none';
+        }
+      });
+    }
+
+    nationFilter.addEventListener('change', filterSkins);
+    tierFilter.addEventListener('change', filterSkins);
+    searchInput.addEventListener('input', filterSkins);
+
+    loadSkins();
+  </script>
+
+</body>
+</html>
