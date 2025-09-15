@@ -156,7 +156,7 @@
 
     async function loadSkins() {
       try {
-        const response = await fetch('tanques.json');
+        const response = await fetch('tanques1.json');
         skinsData = await response.json();
         renderSkins();
       } catch (error) {
