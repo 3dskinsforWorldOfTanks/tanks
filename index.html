@@ -157,7 +157,7 @@
 
     async function loadSkins() {
       try {
-        const response = await fetch('tanques1.json');
+        const response = await fetch('tanques2.json');
         skinsData = await response.json();
         renderSkins();
       } catch (error) {
@@ -178,7 +178,7 @@
           <img src="${skin.IMAGEN}.jpg" alt="${skin.TANQUE}">
           <div class="card-content">
             <h3>${skin.TANQUE}</h3>
-            <a href="${skin.LINK}" target="_blank">Ver Publicación</a>
+            <a href="${skin.LINK}" target="_blank">See publication</a>
           </div>
         `;
 
