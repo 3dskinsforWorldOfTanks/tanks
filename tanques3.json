@@ -1,4 +1,32 @@
 [
+    {
+    "NACION": "RUSSIAN",
+    "TANQUE": "TASCHENRATTE",
+    "NIVEL": "XI",
+    "LINK": "https://www.patreon.com/posts/taschenratte-139909804?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "TAS"
+  },
+      {
+    "NACION": "RUSSIAN",
+    "TANQUE": "OBJECT 590",
+    "NIVEL": "9",
+    "LINK": "https://www.patreon.com/posts/object-590-139691578?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "590"
+  },
+    {
+    "NACION": "CZECH",
+    "TANQUE": "Vz 58 Medved",
+    "NIVEL": "9",
+    "LINK": "https://www.patreon.com/posts/vz-58-medved-139444211?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "V58Z"
+  },
+  {
+    "NACION": "CHINESE",
+    "TANQUE": "114 SP2",
+    "NIVEL": "X",
+    "LINK": "https://www.patreon.com/posts/114-sp2-premium-139083049?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "114SP2"
+  },
   {
     "NACION": "RUSSIAN",
     "TANQUE": "KR-1",
