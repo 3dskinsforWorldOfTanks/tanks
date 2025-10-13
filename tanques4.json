@@ -1,4 +1,25 @@
 [
+ {
+    "NACION": "GERMAN",
+    "TANQUE": "GST TURM HARRIER",
+    "NIVEL": "8",
+    "LINK": "https://www.patreon.com/posts/gst-turm-141081900?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "gstlx"
+  },
+         {
+    "NACION": "CHINESE",
+    "TANQUE": "116 F3",
+    "NIVEL": "X",
+    "LINK": "https://www.patreon.com/posts/116-f3-premium-141015972?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "116f3"
+  },
+     {
+    "NACION": "GERMAN",
+    "TANQUE": "LEOPARD 120",
+    "NIVEL": "XI",
+    "LINK": "https://www.patreon.com/posts/leopard-120-140805923?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "leo120"
+  },
     {
     "NACION": "RUSSIAN",
     "TANQUE": "TASCHENRATTE",
