@@ -1,4 +1,18 @@
 [
+   {
+    "NACION": "FRENCH",
+    "TANQUE": "SFAC 105",
+    "NIVEL": "8",
+    "LINK": "https://www.patreon.com/posts/sfac-105-141547064?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "105sfac"
+  },
+  {
+    "NACION": "CZECH",
+    "TANQUE": "DRAVEC",
+    "NIVEL": "X",
+    "LINK": "https://www.patreon.com/posts/vz-59-dravec-141418830?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "dravec"
+  },
  {
     "NACION": "GERMAN",
     "TANQUE": "GST TURM HARRIER",
