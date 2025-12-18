@@ -1,4 +1,74 @@
 [
+                  {
+    "NACION": "CHINESE",
+    "TANQUE": "BZ-79",
+    "NIVEL": "X",
+    "LINK": "https://www.patreon.com/posts/bz-79-premium-145812228?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "bz79"
+  },
+   {
+    "NACION": "GERMAN",
+    "TANQUE": "JAGDPANZER E90",
+    "NIVEL": "9",
+    "LINK": "https://www.patreon.com/posts/jagdpanzer-e-90-145664947?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "coco"
+  },
+               {
+    "NACION": "ITALY",
+    "TANQUE": "COCCODRILLO",
+    "NIVEL": "X",
+    "LINK": "https://www.patreon.com/posts/coccodrillo-145500425?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "coco"
+  },
+            {
+    "NACION": "CHINESE",
+    "TANQUE": "BZT-70",
+    "NIVEL": "X",
+    "LINK": "https://www.patreon.com/posts/bzt-70-145197188?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "bzt70"
+  },
+   {
+    "NACION": "BRITISH",
+    "TANQUE": "CONTRIVER",
+    "NIVEL": "X",
+    "LINK": "https://www.patreon.com/posts/fv4025-contriver-144958079?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "contriver"
+  },
+         {
+    "NACION": "GERMAN",
+    "TANQUE": "MAUS",
+    "NIVEL": "X",
+    "LINK": "https://www.patreon.com/posts/maus-premium-144710325?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "maus"
+  },
+      {
+    "NACION": "RUSSIAN",
+    "TANQUE": "KV-4 TURCH",
+    "NIVEL": "8",
+    "LINK": "https://www.patreon.com/posts/kv-4-turchaninov-144696207?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "kv4turch"
+  },
+   {
+    "NACION": "RUSSIAN",
+    "TANQUE": "KV-4 LUXURY",
+    "NIVEL": "8",
+    "LINK": "https://www.patreon.com/posts/kv-4-144254633?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "kv4lx"
+  },
+      {
+    "NACION": "RUSSIAN",
+    "TANQUE": "MERKAVA LP",
+    "NIVEL": "X",
+    "LINK": "https://www.patreon.com/posts/merkava-lp-mir-143983935?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "merkava"
+  },
+   {
+    "NACION": "RUSSIAN",
+    "TANQUE": "SU-130PM",
+    "NIVEL": "8",
+    "LINK": "https://www.patreon.com/posts/su-130pm-143318882?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "su130"
+  },
    {
     "NACION": "JAPAN",
     "TANQUE": "TYPE 5 HEAVY",
