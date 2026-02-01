@@ -1,4 +1,32 @@
 [
+{
+    "NACION": "GERMAN",
+    "TANQUE": "HIRSCHKAFER",
+    "NIVEL": "XI",
+    "LINK": "https://www.patreon.com/posts/hirschkafer-149639419?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "HIR"
+  },
+{
+    "NACION": "GERMAN",
+    "TANQUE": "WT auf E 100 PHONIX",
+    "NIVEL": "X",
+    "LINK": "https://www.patreon.com/posts/wt-auf-e-100-148990428?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "PHONIX"
+  },
+{
+    "NACION": "BRITISH",
+    "TANQUE": "AT-FV230 BREAKER",
+    "NIVEL": "XI",
+    "LINK": "https://www.patreon.com/posts/at-fv230-breaker-148659446?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "BREAKER"
+  },
+        {
+    "NACION": "AMERICAN",
+    "TANQUE": "ARES 90 C",
+    "NIVEL": "XI",
+    "LINK": "https://www.patreon.com/posts/ares-90-c-148498326?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "A90C"
+  },
         {
     "NACION": "ITALY",
     "TANQUE": "COCCODRILLO LUXURY",
