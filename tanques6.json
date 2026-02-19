@@ -1,4 +1,18 @@
 [
+        {
+    "NACION": "AMERICAN",
+    "TANQUE": "ARES 90",
+    "NIVEL": "X",
+    "LINK": "https://www.patreon.com/posts/ares-90-151135745?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "AR90"
+  },
+    {
+    "NACION": "AMERICAN",
+    "TANQUE": "SPHT",
+    "NIVEL": "9",
+    "LINK": "https://www.patreon.com/posts/spht-150290523?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "SPHT"
+  },
 {
     "NACION": "GERMAN",
     "TANQUE": "HIRSCHKAFER",
