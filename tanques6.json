@@ -1,4 +1,12 @@
 [
+  },
+              {
+    "NACION": "RUSSIAN",
+    "TANQUE": "UDARNIY",
+    "NIVEL": "8",
+    "LINK": "https://www.patreon.com/skins3dwot/posts/udarniy-165044084?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "UDARNIY"
+  },
   {
     "NACION": "BRITISH",
     "TANQUE": "Centurion AX MIrny",
