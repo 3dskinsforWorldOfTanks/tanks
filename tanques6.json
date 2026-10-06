@@ -1,4 +1,11 @@
 [
+                              {
+    "NACION": "CHINESE",
+    "TANQUE": "PTZ-78",
+    "NIVEL": "XI",
+    "LINK": "https://www.patreon.com/skins3dwot/posts/ptz-78-171565599?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+    "IMAGEN": "PTZ78"
+  },
             {
     "NACION": "GERMAN",
     "TANQUE": "Hirschkafer",
@@ -359,7 +366,7 @@
                   {
     "NACION": "CHINESE",
     "TANQUE": "BZ-79",
-    "NIVEL": "X",
+    "NIVEL": "XI",
     "LINK": "https://www.patreon.com/posts/bz-79-premium-145812228?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
     "IMAGEN": "bz79"
   },
